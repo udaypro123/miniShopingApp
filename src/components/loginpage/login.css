@@ -1,0 +1,75 @@
+.maincontainer {
+    height: 100vh;
+    width: 100vw;
+    background-image: url();
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainrow {
+    background-image: url(https://cdn.windowsreport.com/wp-content/uploads/2018/11/Privacy-Lock-Win-7-Featured-e1578581537400.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    margin-top: 8%;
+    box-shadow: 10px 0px 5px rgb(254, 254, 17);
+    border-bottom-right-radius: 50%;
+    opacity: .8;
+}
+
+.mainrow1 {
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(247, 219, 105, 0.814);
+    margin-top: 16%;
+    box-shadow: 0px 0px  1px 1px rgb(103, 103, 103);
+    opacity: .8;
+}
+
+.card-bodymain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-bodymainpart1{
+    width: 80%;
+}
+.btnPrimary{
+    margin-top: 2rem;
+    width: 50%;
+}
+.loginimagediv{
+    width: 50%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.loginimagediv img{
+    height: 2rem;
+    width: 2rem;
+}
+.alreadyAuser{
+    margin:0 auto;
+}
+
+
+
+/*  eye show and hide of password*/
+.card-bodymainpart3 img{
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 2.4rem;
+    right: 1rem;
+}
+.card-bodymainpart3{
+   position: relative;
+  }
+ 

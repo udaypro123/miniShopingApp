@@ -1,0 +1,64 @@
+
+.userconatiner{
+    margin-top: 5rem;
+}
+
+.Userdiv {
+    height: 100%;
+    width: 100%;
+}
+
+.Userdiv h3 {
+    padding: .3rem;
+}
+
+.radioBtn {
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.radioBtn input{
+    border: 2px solid black;
+    border-radius: .5rem;
+    /* text-align: center; */
+}
+
+
+.radioBtn p {
+    padding: .1rem;
+}
+
+.radioBtn label {
+    margin-right: 1rem;
+}
+
+.userMaincard {
+    height: 100%;
+    width: 100%;
+}
+
+.userdetailsdata {
+    margin-top: 1rem;
+    background-color: black;
+    border-radius: .3rem;
+}
+
+.userdetailsdata div {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#userdata {
+    border: 1px solid black;
+}
+
+.userdetails div{
+   /* border: 1px solid black; */
+   box-shadow: inset 1px 0px 1px black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+

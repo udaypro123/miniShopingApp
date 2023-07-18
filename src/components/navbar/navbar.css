@@ -1,0 +1,127 @@
+.navbar-brand {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(11, 32, 255);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.navbar-brand:hover {
+  color: rgb(0, 81, 255);
+}
+
+/* #navbarSupportedContent ul li a {
+  
+  margin-left: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+
+} */
+.nav-link{
+  color: blue;
+  margin-left: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-link:hover{
+  color: blue;
+  margin-left: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* #navbarSupportedContent ul li a:hover {
+  animation: navbarhover;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes navbarhover {
+  0% {
+    color: rgb(188, 251, 71);
+
+  }
+
+  25% {
+    color: rgb(250, 57, 3);
+  }
+
+  50% {
+    color: rgb(255, 0, 230);
+  }
+
+  75% {
+    color: rgb(0, 132, 255);
+  }
+
+  100% {
+    color: rgb(233, 188, 8);
+  }
+
+} */
+
+
+.cartbtn {
+  height: 2.2rem;
+  width: 2.5rem;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  position: relative;
+  box-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+.cartbtn img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.cartitemNumber {
+  top: -10px;
+  right:-5px;
+  position: absolute;
+}
+.cartitemNumber div {
+  
+    color: rgb(255, 255, 255);
+    width: 1.5rem;
+    background-color: rgb(255, 105, 12);
+   border-radius: 50%;
+   box-shadow: 0px 0px 2px rgb(59, 0, 176);
+}
+.cartitemNumber div h5{
+   font-size: 1.2rem;
+   text-align: center;
+}
+
+.btnimglock {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+}
+
+.btnimglock img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.btnimglock div {
+  width: .8rem;
+  height:.8rem;
+ top:-.2rem;
+ right: 0;
+ position: absolute;
+ background-color: rgb(18, 248, 6);
+ border-radius: 50%;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 1, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+  border: 2px solid rgb(74, 29, 29);
+  border-radius: .2rem;
+
+}

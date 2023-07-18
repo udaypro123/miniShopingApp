@@ -1,0 +1,50 @@
+.conatinercd {
+    margin-top: 5rem;
+}
+
+.conatinercds {
+    background-color: rgb(236, 236, 255);
+    margin-top: 5rem;
+}
+
+.EmpltycartContainer {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.EmpltycartContainer h2 {
+    font-size: 3rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-style: italic;
+    text-shadow: 0px 3px 5px rgb(30, 28, 28);
+
+}
+
+.EmpltycartContainer img {
+    height: 50vh;
+    width: 60%;
+    object-fit: fill;
+}
+
+.cartbtnquality {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cartbtnquality button {
+    height: 2rem;
+    width: 4rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(158, 158, 158);
+}
+
+.cartbtnquality span {
+    margin: .5rem;
+}
